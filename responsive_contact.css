@@ -1,0 +1,66 @@
+/* Tablet Mode */
+
+@media only screen and (min-width:768px) and (max-width:991px){
+
+    .full_website{
+        width:100%;
+        background:red;
+     }
+    .about_room {
+        width: 91%;
+    }
+    .logo {
+        width: 34%;
+    }
+}
+/* Mobile Mode */
+@media only screen and (min-width:480px) and (max-width:767px){
+
+    .full_website{
+        width:99%;
+        background:green;
+     }
+     .banner {
+        width: 9%;}
+
+    .first_room {
+    height: 150px;}
+
+     .content {
+       width: 100%; 
+     }
+    
+    .box h3 {
+       width: 87%;
+       text-align: center;
+       font-size: 17px;		
+    }
+ }
+/* For small Device */
+@media only screen and (min-width:200px) and (max-width:479px){
+    .full_website{
+       width:99%;
+       background:yellow;
+    }
+    .banner {
+        width: 13%;}
+
+        .first_room {
+            height: 150px;}
+
+            .fifth_room{
+                flex-direction: column; 
+               }
+             .box {
+             width: 89%;
+             text-align:center;
+             padding: 15px 24px;
+            }
+              .box h3 {
+                 width: 98%;
+                 text-align: center;
+                 font-size: 17px;		
+              }
+            
+
+} 

@@ -1,0 +1,88 @@
+/* Tablet Mode */
+
+@media only screen and (min-width:768px) and (max-width:991px){
+
+.full_website{
+    width:100%;
+    background:red;
+ }
+ .logo {
+   width: 28%;}
+ .second_room ul li a {
+    color: white;
+    font-size: 17px;}
+    .first_room {
+        background: rgba(47, 0, 255, 0.74);
+        height:90px
+     }
+     .sixth_room h4 {
+        font-size: 15px;}
+}
+   /* Mobile Mode */
+   @media only screen and (min-width:480px) and (max-width:767px){
+
+      .full_website{
+         width:99%;
+         background:green;
+      }
+      .content {
+         width: 100%; 
+      }
+      .rightsidebar {       
+            width: 75%;
+            padding-left: 186px;
+            padding-top: 19px;
+            padding-bottom: 10px;
+      }  
+      .box h3 {
+         width: 87%;
+         text-align: center;
+         font-size: 17px;		
+      }
+   }
+
+/* For small Device */
+@media only screen and (min-width:200px) and (max-width:479px){
+   .full_website{
+      width:99%;
+      background:yellow;
+   }
+   .logo {
+      width: 60%;
+   }
+   .banner {
+      width: 15%;
+   }
+   .readmore {
+      width: 80px;
+   }
+
+   .rightsidebar {       
+        width: 93%;
+        padding-left: 76px;
+        padding-top: 22px;
+       padding-bottom: 22px;
+
+  } 
+  .rightsightbar_element h3 {
+   width: 91%;
+   text-align: center;
+}
+  .content {
+   width: 98%; 
+ }
+ .fifth_room{
+    flex-direction: column; 
+   }
+ .box {
+ width: 89%;
+ text-align:center;
+ padding: 15px 24px;
+}
+  .box h3 {
+     width: 98%;
+     text-align: center;
+     font-size: 17px;		
+  }
+}
+/* home page end */

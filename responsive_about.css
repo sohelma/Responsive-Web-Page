@@ -1,0 +1,86 @@
+/* Tablet Mode */
+
+@media only screen and (min-width:768px) and (max-width:991px){
+
+    .full_website{
+        width:100%;
+        background:red;
+     }
+    .about_room {
+        width: 91%;
+    }
+    .logo {
+        width: 34%;
+    }
+    .about_room h2 {
+        text-align: center;
+        border: 5px double grey;
+        border-radius: 8px;
+        width: 41%; 
+        margin: 0 auto;
+    }
+}
+
+/* Mobile Mode */
+@media only screen and (min-width:480px) and (max-width:767px){
+
+    .full_website{
+        width:99%;
+        background:green;
+     }
+     .logo {
+        width: 37%;
+     }
+     .banner {
+        width: 10%;}
+    .first_room {
+        height: 92px;
+    }  
+    .box h3 {
+       width: 93%;	
+    }
+}
+
+/* For small Device */
+@media only screen and (min-width:200px) and (max-width:479px){
+    .full_website{
+       width:99%;
+       background:yellow;
+       height: 139px;
+       padding: 2px 0px;
+    }
+
+     .first_room {
+        background: rgba(35, 9, 151, 0.747);
+        height: 131px;
+        width: 100%;
+        padding: 10px 0px;}
+
+    .logo {
+       width: 60%;
+    }
+    .banner {
+       width: 18%;
+    }
+    .about_room {
+        background: cornflowerblue;
+        width: 80%;}
+
+    .second_room ul li a {
+            padding: 10px 3px;}
+
+  .fifth_room{
+     flex-direction: column; 
+    }
+  .box {
+  width: 89%;
+  text-align:center;
+  padding: 15px 24px;
+ }
+   .box h3 {
+      width: 98%;
+      text-align: center;
+      font-size: 17px;		
+   }
+ }
+ /* about page end */
