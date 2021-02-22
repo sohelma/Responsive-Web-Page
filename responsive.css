@@ -11,10 +11,16 @@
  .second_room ul li a {
     color: white;
     font-size: 17px;}
-    .first_room {
+ .first_room {
         background: rgba(47, 0, 255, 0.74);
         height:90px
      }
+ .readmore {
+      width: 17%;
+  }
+ .rightsidebar {
+      width: 30%;
+      }
      .sixth_room h4 {
         font-size: 15px;}
 }
@@ -25,6 +31,17 @@
          width:99%;
          background:green;
       }
+      .logo {
+         width: 43%;
+         padding: -2px 1px;
+         height: 0px;
+      }
+      .banner {
+         width: 10%;}
+         .readmore {
+            width: 17%;
+        }
+
       .content {
          width: 100%; 
       }
@@ -48,11 +65,14 @@
       background:yellow;
    }
    .logo {
-      width: 60%;
+         font-size: 9px;
    }
    .banner {
       width: 15%;
    }
+   .second_room ul li a {
+      padding: 13px 5px;
+      font-size: 14px;}
    .readmore {
       width: 80px;
    }
