@@ -31,15 +31,21 @@
          width:99%;
          background:green;
       }
-      .logo {
+      .logo { 
          width: 43%;
+         font-size: 12px;
          padding: -2px 1px;
-         height: 0px;
+         
       }
       .banner {
-         width: 10%;}
+         width: 13%;
+      }
+      .first_room {
+         height: 80px;
+         padding: 10px 0px;}
+
          .readmore {
-            width: 17%;
+            width: 19%;
         }
 
       .content {
@@ -56,6 +62,11 @@
          text-align: center;
          font-size: 17px;		
       }
+      .box {
+         padding: 25px;
+         margin-bottom: -14px;
+         margin-top: 6px;
+     }
    }
 
 /* For small Device */
@@ -66,7 +77,9 @@
    }
    .logo {
          font-size: 9px;
-   }
+         width: 60%;
+         padding: 0px 0px;
+     }
    .banner {
       width: 15%;
    }
@@ -76,7 +89,6 @@
    .readmore {
       width: 80px;
    }
-
    .rightsidebar {       
         width: 93%;
         padding-left: 76px;
@@ -98,7 +110,10 @@
  width: 89%;
  text-align:center;
  padding: 15px 24px;
-}
+ margin-bottom: -14px;
+      margin-top: 6px;
+     }
+
   .box h3 {
      width: 98%;
      text-align: center;

@@ -30,8 +30,11 @@
         background:green;
      }
      .banner {
-        width: 12%;}
-    .logo{width: 38%;
+        width: 13%;
+    }
+    .logo{width:60%;
+        font-size: 12px;
+        padding: -2px 1px;
            }
 
     .first_room {
@@ -50,9 +53,9 @@
         padding: 9px;}
     
     .box h3 {
-       width: 87%;
+       width: 107%;
        text-align: center;
-       font-size: 17px;		
+       font-size: 16px;		
     }
  }
 /* For small Device */

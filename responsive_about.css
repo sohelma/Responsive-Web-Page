@@ -30,11 +30,14 @@
      }
      .logo {
         width: 60%;
+        font-size: 12px;
+        padding: -2px 1px;
      }
      .banner {
         width: 14%;}
     .first_room {
-        height: 90px;
+        height: 84px;
+        padding: 4px 0px;
     }  
     .about_room {
         width: 84%;}
