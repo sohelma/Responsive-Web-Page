@@ -12,6 +12,15 @@
     .logo {
         width: 34%;
     }
+    .form {
+        width: 46%;
+       padding: 8px 39px;
+    }
+    .box h3 {
+        width: 87%;
+        text-align: center;
+        font-size: 17px;		
+     }
 }
 /* Mobile Mode */
 @media only screen and (min-width:480px) and (max-width:767px){
@@ -21,14 +30,24 @@
         background:green;
      }
      .banner {
-        width: 9%;}
+        width: 12%;}
+    .logo{width: 38%;
+           }
 
     .first_room {
-    height: 150px;}
-
+    height: 90px;}
+    .form {
+        width: 56%;
+       padding: 8px 38px;}
+      
      .content {
        width: 100%; 
      }
+     .about_room {  
+        width: 92%;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        padding: 9px;}
     
     .box h3 {
        width: 87%;
@@ -38,28 +57,53 @@
  }
 /* For small Device */
 @media only screen and (min-width:200px) and (max-width:479px){
-    .full_website{
+ .full_website{
        width:99%;
        background:yellow;
     }
-    .banner {
-        width: 13%;}
+ .logo{width: 62%;
+        padding: 0px 0px;}
+.banner {
+        width: 14%;}
 
-        .first_room {
-            height: 150px;}
-
-            .fifth_room{
-                flex-direction: column; 
+ .first_room {
+            height: 88px;}
+    .second_room {
+         height: 40px;
+         margin-top: -9px;
+            }
+            
+ .second_room ul li a {
+                padding: 11px 9px;
+                font-size: 16px;
+            }
+ .form {
+         width: 56%;
+        padding: 8px 39px;
+ }       
+ .about_room {  
+    width: 92%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding: 9px;
+}   
+.about_room p {
+    line-height: 22px;
+    padding: 12px;
+}              
+            
+ .fifth_room{
+             flex-direction: column; 
                }
-             .box {
+ .box {
              width: 89%;
              text-align:center;
              padding: 15px 24px;
             }
-              .box h3 {
-                 width: 98%;
-                 text-align: center;
-                 font-size: 17px;		
+ .box h3 {
+            width: 98%;
+            text-align: center;
+            font-size: 17px;		
               }
             
 

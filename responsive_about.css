@@ -29,16 +29,20 @@
         background:green;
      }
      .logo {
-        width: 37%;
+        width: 60%;
      }
      .banner {
-        width: 10%;}
+        width: 14%;}
     .first_room {
-        height: 92px;
+        height: 90px;
     }  
-    .box h3 {
-       width: 93%;	
-    }
+    .about_room {
+        width: 84%;}
+        
+     .box h3 {
+            width: 106%;
+            font-size: 17px;
+        }
 }
 
 /* For small Device */
@@ -51,10 +55,10 @@
     }
 
      .first_room {
-        background: rgba(35, 9, 151, 0.747);
-        height: 131px;
+        background:rgba(44, 3, 227, 0.92);
+        height: 98px;
         width: 100%;
-        padding: 10px 0px;}
+        padding: 5px 0px;}
 
     .logo {
        width: 60%;
